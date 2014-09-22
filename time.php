@@ -22,7 +22,7 @@ ini_set('display_errors', 1);
 <body class="dy <?=$background?>">
 	
 	<h1>It is <?=date('g:iA')?></h1>
-	<small>Timezone: <?php echo ini_get(date_default_timezone_get());?>
+	<small>Timezone: <?php echo date_default_timezone_get();?>
 	
 	<p>
 	<img src='http://making-the-internet.s3.amazonaws.com/<?=$image?>' alt='time image'>
